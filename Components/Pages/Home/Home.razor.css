@@ -1,0 +1,88 @@
+.fontLarge{
+    font-size: calc(5vw);
+  
+}
+.christmas {
+    position: absolute;
+    z-index: 1;
+    bottom: 93%; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 150px;
+}
+
+.box {
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center; 
+}
+@media (max-width: 767px) {
+    .christmas {
+        left:47%;
+    }
+}
+
+.snowfall {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.snowflake {
+    position: absolute;
+    background-color: #fff;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+.snowflake.small {
+    width: 4px;
+    height: 4px;
+    animation-duration: 6s;
+}
+
+.snowflake.medium {
+    width: 8px;
+    height: 8px;
+    animation-duration: 8s;
+}
+
+.snowflake.large {
+    width: 12px;
+    height: 12px;
+    animation-duration: 10s;
+}
+
+.snowflake.left {
+    left: 5%;
+}
+
+.snowflake.center-left {
+    left: 15%;
+}
+
+.snowflake.center {
+    left: 30%;
+}
+
+.snowflake.center-right {
+    left: 60%;
+}
+
+.snowflake.right {
+    left: 80%;
+}

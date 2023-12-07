@@ -1,0 +1,33 @@
+﻿@page "/"
+@rendermode InteractiveServer
+<Snowflake />
+<section class="d-flex justify-content-center align-items-center">
+
+    <div class="box d-flex justify-content-center align-content-center flex-column p-5">
+        <img class="christmas" src="imgs/christmas.png">
+        <h3 class="text-center w-100">CHRISTMAS @DateTime.Now.Year</h3>
+
+        <h1 class="fontLarge text-center w-100">@tempoRestante.ToString(@"dd\:hh\:mm\:ss")</h1>
+    </div>
+</section>
+
+@code {
+    private TimeSpan tempoRestante;
+    private DateTime ultimoTick;
+    private bool estaRodando = true;
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (estaRodando)
+        {
+            tempoRestante = CalcularTempoRestante();
+            StateHasChanged();
+            await Task.Delay(1000);
+        }
+    }
+
+    private TimeSpan CalcularTempoRestante()
+    {
+        DateTime natal = new DateTime(DateTime.Now.Year, 12, 25);
+        return natal - DateTime.Now;
+    }
+}
