@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KFw/nI2TDtPVAhFr01grgaqS8SV4YrXTtWUohepWKXo=",
+  "Hash": "05Wrm72EUFXXeYnv0NO3mp8FnCNGjG0n1w5uUyWixzs=",
   "Source": "Christmas",
   "BasePath": "_content/Christmas",
   "Mode": "Default",
@@ -167,6 +167,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/imgs/christmas.png"
+    },
+    {
+      "Identity": "/home/jaum/Christmas/Christmas/wwwroot/imgs/florest.png",
+      "SourceId": "Christmas",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jaum/Christmas/Christmas/wwwroot/",
+      "BasePath": "_content/Christmas",
+      "RelativePath": "imgs/florest.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/imgs/florest.png"
+    },
+    {
+      "Identity": "/home/jaum/Christmas/Christmas/wwwroot/site.js",
+      "SourceId": "Christmas",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jaum/Christmas/Christmas/wwwroot/",
+      "BasePath": "_content/Christmas",
+      "RelativePath": "site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/site.js"
     }
   ]
 }

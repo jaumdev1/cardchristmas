@@ -29,6 +29,14 @@
       "PackagePath": "staticwebassets/imgs/christmas.png"
     },
     {
+      "Id": "/home/jaum/Christmas/Christmas/wwwroot/imgs/florest.png",
+      "PackagePath": "staticwebassets/imgs/florest.png"
+    },
+    {
+      "Id": "/home/jaum/Christmas/Christmas/wwwroot/site.js",
+      "PackagePath": "staticwebassets/site.js"
+    },
+    {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Christmas.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

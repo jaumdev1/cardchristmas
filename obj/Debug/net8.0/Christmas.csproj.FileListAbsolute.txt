@@ -28,3 +28,5 @@
 /home/jaum/Christmas/Christmas/obj/Debug/net8.0/ref/Christmas.dll
 /home/jaum/Christmas/Christmas/obj/Debug/net8.0/scopedcss/Components/Pages/Home/Home.razor.rz.scp.css
 /home/jaum/Christmas/Christmas/obj/Debug/net8.0/scopedcss/Components/Pages/Home/Snowflake.razor.rz.scp.css
+/home/jaum/Christmas/Christmas/obj/Debug/net8.0/Christmas.sourcelink.json
+/home/jaum/Christmas/Christmas/obj/Debug/net8.0/scopedcss/Components/Pages/Card/Card.razor.rz.scp.css
