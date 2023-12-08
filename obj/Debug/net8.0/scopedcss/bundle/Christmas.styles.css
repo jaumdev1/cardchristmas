@@ -46,12 +46,13 @@ main[b-clv3oyevmo] {
         top: 0.5rem;
     }
 /* _content/Christmas/Components/Pages/Card/Card.razor.rz.scp.css */
-.florest[b-u4u2bp2sr4]{
- 
-}
-.card[b-u4u2bp2sr4]{
+@media (min-width: 767px) {
+   .cardSection[b-u4u2bp2sr4]{
+    height: 500px;
+   }
 
 }
+
 /* _content/Christmas/Components/Pages/Home/Home.razor.rz.scp.css */
 .fontLarge[b-igsa0xqaj3]{
     font-size: calc(5vw);

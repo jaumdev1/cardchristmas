@@ -1,6 +1,7 @@
-.florest{
- 
-}
-.card{
+@media (min-width: 767px) {
+   .cardSection{
+    height: 500px;
+   }
 
 }
+

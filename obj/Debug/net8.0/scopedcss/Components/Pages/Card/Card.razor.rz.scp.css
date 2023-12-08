@@ -1,6 +1,7 @@
-.florest[b-u4u2bp2sr4]{
- 
-}
-.card[b-u4u2bp2sr4]{
+@media (min-width: 767px) {
+   .cardSection[b-u4u2bp2sr4]{
+    height: 500px;
+   }
 
 }
+
